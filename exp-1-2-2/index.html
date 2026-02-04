@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">Experiment 2</div>
+    <nav>
+    <a href="/exp-1-2-1/">Experiment 2.1</a>
+    <a href="/exp-1-2-2/">Experiment 2.2</a>
+    <a href="/exp-1-2-3/">Experiment 2.3</a>
+</nav>
+
+</header>
+
+<h3>Product Filter</h3>
+<label>Filter by:</label>
+<select id="filter">
+    <option value="all">All</option>
+    <option value="electronics">Electronics</option>
+    <option value="clothing">Clothing</option>
+</select>
+<div id="products">
+    <div id="e1" class="card">
+        Headphones - $129.99
+        <span class="electronics">electronics</span>
+    </div>
+    <div id="e2" class="card">
+        Speaker - $89.99
+        <span class="electronics">electronics</span>
+    </div>
+    <div id="c1" class="card">
+        T-Shirt - $24.99
+        <span class="clothing">clothing</span>
+    </div>
+    <div id="c2" class="card">
+        Jeans - $59.99
+        <span class="clothing">clothing</span>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
